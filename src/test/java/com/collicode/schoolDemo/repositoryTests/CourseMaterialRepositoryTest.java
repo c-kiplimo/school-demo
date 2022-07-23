@@ -1,15 +1,12 @@
-package com.collicode.schoolDemo.repository;
+package com.collicode.schoolDemo.repositoryTests;
 
 import com.collicode.schoolDemo.entity.Course;
 import com.collicode.schoolDemo.entity.CourseMaterial;
-import com.collicode.schoolDemo.entity.Teacher;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 //
 @SpringBootTest

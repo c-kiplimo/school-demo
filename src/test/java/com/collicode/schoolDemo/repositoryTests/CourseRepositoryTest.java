@@ -1,4 +1,4 @@
-package com.collicode.schoolDemo.repository;
+package com.collicode.schoolDemo.repositoryTests;
 
 import com.collicode.schoolDemo.entity.Course;
 import com.collicode.schoolDemo.entity.Teacher;
@@ -8,7 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 class CourseRepositoryTest {
     @Autowired
