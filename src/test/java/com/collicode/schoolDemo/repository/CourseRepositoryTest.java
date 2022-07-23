@@ -1,4 +1,4 @@
-package com.collicode.schoolDemo.repositoryTests;
+package com.collicode.schoolDemo.repository;
 
 import com.collicode.schoolDemo.entity.Course;
 import com.collicode.schoolDemo.entity.Teacher;
@@ -11,7 +11,7 @@ import java.util.List;
 @SpringBootTest
 class CourseRepositoryTest {
     @Autowired
-    private  CourseRepository courseRepository;
+    private CourseRepository courseRepository;
     @Test
     public  void saveCourse(){
         Course course= Course.builder().credit(6).title("OOP").build();

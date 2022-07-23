@@ -1,4 +1,4 @@
-package com.collicode.schoolDemo.repositoryTests;
+package com.collicode.schoolDemo.repository;
 
 import com.collicode.schoolDemo.entity.CourseMaterial;
 import org.springframework.data.jpa.repository.JpaRepository;

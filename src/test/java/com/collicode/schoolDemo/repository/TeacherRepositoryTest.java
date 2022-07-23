@@ -1,4 +1,4 @@
-package com.collicode.schoolDemo.repositoryTests;
+package com.collicode.schoolDemo.repository;
 
 import com.collicode.schoolDemo.entity.Course;
 import org.junit.jupiter.api.Test;

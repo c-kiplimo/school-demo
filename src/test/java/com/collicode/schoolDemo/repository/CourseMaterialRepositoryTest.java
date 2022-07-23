@@ -1,4 +1,4 @@
-package com.collicode.schoolDemo.repositoryTests;
+package com.collicode.schoolDemo.repository;
 
 import com.collicode.schoolDemo.entity.Course;
 import com.collicode.schoolDemo.entity.CourseMaterial;
@@ -12,7 +12,7 @@ import java.util.List;
 @SpringBootTest
 class CourseMaterialRepositoryTest {
 @Autowired
-    private  CourseMaterialRepository courseRepository;
+    private CourseMaterialRepository courseRepository;
 @Test
 public  void saveCourseMaterial(){
     Course course=Course.builder().title("Data Structures and algorithims").credit(30).build();
