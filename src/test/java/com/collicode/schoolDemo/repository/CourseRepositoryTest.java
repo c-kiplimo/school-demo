@@ -23,6 +23,7 @@ class CourseRepositoryTest {
         List<Course> courses=courseRepository.findAll();
         System.out.println("courses = "+courses);
     }
+    //
     @Test
     public void saveCourseWithTeacher(){
         Teacher teacher=Teacher.builder().lastName("kenei").firstName("ken").build();
