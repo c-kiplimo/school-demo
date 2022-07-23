@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-public interface StudentRepository extends JpaRepository<Student,Long> {
+interface StudentRepository extends JpaRepository<Student,Long> {
   List<Student>findByFirstname(String firstname);
   List<Student>findByFirstnameContaining(String name);
   List<Student>findByGuardianName(String guardianName);
