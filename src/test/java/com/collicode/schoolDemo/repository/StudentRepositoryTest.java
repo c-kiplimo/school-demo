@@ -50,11 +50,11 @@ class StudentRepositoryTest {
       Student student=Student.builder().firstname("Kelvin").lastName("Kiplimo").emailId("kevo@gmail.com").guardian(guardian).build();
       studentRepository.save(student);
       }
-    @Test
-    public  void printAllStudent(){
-        List<Student> studentList =studentRepository.findAll();
-        System.out.println("studentList =" + studentList );
-    }
+//    @Test
+//    public  void printAllStudent(){
+//        List<Student> studentList =studentRepository.findAll();
+//        System.out.println("studentList =" + studentList );
+//    }
     @Test
     public  void  updateStudentfirstNameByEmailId(){
         studentRepository.updateStudentfirstNameByEmailId("kiplimo collins","limo@gmail.com");
